@@ -8,7 +8,6 @@ public class Sel_Introduction {
 		
 		//Invoking the Browser
 		//System.setProperty("webdriver.chrome.driver","/Users/ananyapriyadarshinisahoo/Documents/chromedriver");
-		
 
 		//To Launch Firefox
 		//WebDriver driver = new FirefoxDriver();
@@ -18,12 +17,6 @@ public class Sel_Introduction {
 		driver.get("https://google.com");
 		System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
-        driver.close();
-		
-		
-		
-		
-
+        driver.close();	
 	}
-
 }
